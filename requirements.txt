@@ -4,6 +4,4 @@ nltk
 numpy
 scikit-learn
 google-generativeai
-nltk==3.6.3
--e ./nltk_data
 Gunicorn
