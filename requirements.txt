@@ -2,7 +2,6 @@ requests
 nltk
 numpy
 scikit-learn
-pathlib
 text 
 google-generativeai
 Gunicorn
