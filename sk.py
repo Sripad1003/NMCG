@@ -17,6 +17,7 @@ TIME_INPUTS = ("whats' the time", "time", " what time is it?", "what is the time
 DATE_INPUTS = ("what date is it today?", "date", "what's the date?", "do you know the date?", "what date are we on today?", "what's the date today?", "what's today's date?")
 GREETING_RESPONSES = ['hi', 'hey', 'hi there', 'hello', 'I am glad! You are talking to me']
 
+nltk.download('punkt', download_dir='./nltk_data')
 lemmer = nltk.stem.WordNetLemmatizer()
 remove_punct_dict = dict((ord(punct), None) for punct in string.punctuation)
 GOOGLE_API_KEY="AIzaSyDA4x_vwtDPTVH0V_gcKAQeViMLVjy-D70"
