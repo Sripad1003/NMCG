@@ -29,7 +29,7 @@ def lem_tokens(tokens):
     return [lemmer.lemmatize(token) for token in tokens]
 
 def lem_normalize(text):
-    return lem_tokens(nltk.word_tokenize(text.lower())
+    return lem_tokens(nltk.word_tokenize(text.lower()))
 
 def time(sentence):
     if sentence.lower() in TIME_INPUTS:
