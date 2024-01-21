@@ -92,30 +92,3 @@ def response(user_response):
         response_parapharase = model.generate_content(f"""give me the paraphrase answer {inp} in the form of text in less than 50 words.""")
         # text.raw += user_response + ", " + response_parapharase.text.replace(".",",")+". " #Reinforcement :)
         return "We didn't understand that! Here are some results from Online:\n" +  response_parapharase.text
-
-    # # nltk.download('punkt')
-    # # nltk.download('wordnet')
-    # sentence_tokens = nltk.sent_tokenize(text.raw)
-    # word_tokens = nltk.word_tokenize(text.raw)
-    # # print([sentence_tokens[:2], word_tokens[:2]])
-
-    # # robo_response = ''
-    # sentence_tokens.append(user_response)
-    # vectorizer = TfidfVectorizer(tokenizer=lem_normalize, stop_words='english')
-    # tfidf = vectorizer.fit_transform(sentence_tokens)
-
-    # values = cosine_similarity(tfidf[-1], tfidf)
-    # # print(values)
-    # idx = values.argsort()[0][-2]
-    # # print(idx)
-    # flat = values.flatten()
-    # # print(flat)
-    # flat.sort()
-    # # print(flat)
-    # req_tfidf = flat[-2]
-    # if req_tfidf == 0:
-    #     robo_response = '{} Sorry, I don\'t understand you'.format(robo_response)
-    # else:
-    #     robo_response = robo_response + sentence_tokens[idx].replace(user_response,"") 
-    # return robo_response
-
