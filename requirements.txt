@@ -1,6 +1,9 @@
-Flask
-nltk
-scikit-learn
-sk
 requests
+nltk
+numpy
+scikit-learn
+pathlib
+textwrap
+text 
+google-generativeai
 Gunicorn
