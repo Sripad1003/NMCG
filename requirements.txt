@@ -3,7 +3,6 @@ nltk
 numpy
 scikit-learn
 pathlib
-textwrap
 text 
 google-generativeai
 Gunicorn
