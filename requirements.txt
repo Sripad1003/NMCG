@@ -1,4 +1,6 @@
 Flask
 nltk
 scikit-learn
+sk
+requests
 Gunicorn
