@@ -11,6 +11,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 # import pathlib
 # import textwrap
 import google.generativeai as genai
+
+nltk.download('punkt')
+nltk.download('wordnet')
+
 GREETING_INPUTS = ('hello', 'hi', 'greetings', 'sup', 'what\'s up', 'hey',)
 TIME_INPUTS = ("whats' the time", "time", " what time is it?", "what is the time?", "could you tell me the time please?", "do you have the time?")
 DATE_INPUTS = ("what date is it today?", "date", "what's the date?", "do you know the date?", "what date are we on today?", "what's the date today?", "what's today's date?")
