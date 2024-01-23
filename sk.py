@@ -1,5 +1,6 @@
 # from datetime import timedelta
 # import requests
+import os
 import nltk
 import numpy as np
 import random
@@ -105,6 +106,8 @@ def response(user_response):
         with open("text.txt", 'a',encoding='utf-8') as file:
             print("before write")
             file.write(new_string.replace("*",""))
+            print(file.name)
+            print(os.path.realpath(file.name))
             print("after write")        
 
         print("after open")
