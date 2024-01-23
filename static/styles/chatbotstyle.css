@@ -176,7 +176,6 @@ header h2 {
   .maincon {
     display: flex;
     justify-content: space-between;
-    margin-top: 1.5vh;
   }
 
   .chatbot {
