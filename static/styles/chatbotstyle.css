@@ -4,20 +4,26 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background: linear-gradient(to right, #c6ffdd, #fbd786);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+
+
+    overflow-x: hidden; /* Updated to only hide horizontal overflow */
+    overflow-y: auto;
 }
 
 .maincon {
   display: flex;
   margin-top: 2vh;
+  height: auto;
+  padding-right: 10px;
 }
 
 .chacha-animation {
@@ -38,6 +44,7 @@ body {
   background: #fff;
   border-radius: 15px;
   overflow: hidden;
+  
   opacity: 0;
   pointer-events: none;
   transform: scale(0.5);
@@ -52,7 +59,7 @@ body.show-chatbot .chatbot {
   transform: scale(1);
 }
 .chatbot header {
-  padding: 16px 0;
+  padding: 12px 0;
   position: relative;
   text-align: center;
   color: #fff;
@@ -215,4 +222,26 @@ header h2 {
     margin: 0;
     font-size: 0.8rem;
   }
+}
+.quotes{
+  width: 60vw;
+  margin: 10vh auto 0;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(#94fabd);
+
+  
+  border: none;
+  border-radius: 5px;
+
+}
+.quotes p{
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333;
+  
 }
