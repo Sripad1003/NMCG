@@ -100,10 +100,14 @@ def response(user_response):
         inp = user_response
         response_parapharase = model.generate_content(f"""give me the paraphrase answer {inp} in the form of text in less than 50 words.""")
         new_string = user_response + ", " + response_parapharase.text[:-1].replace(".",",")+". "
-        
-        with open("text.txt", 'a',encoding='utf-8') as file:
-            file.write(new_string.replace("*",""))
 
+        print("before open")
+        with open("text.txt", 'a',encoding='utf-8') as file:
+            print("before write")
+            file.write(new_string.replace("*",""))
+            print("after write")        
+
+        print("after open")
         # text.raw = text.raw + user_response + ", " + response_parapharase.text.replace(".",",")+". "
         return "We didn't understand that! Here are some results from Online:\n" + response_parapharase.text
 print(response("how to reduce water pollution"))
