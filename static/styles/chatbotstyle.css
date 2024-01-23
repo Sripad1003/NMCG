@@ -222,9 +222,11 @@ header h2 {
     font-size: 0.8rem;
   }
 
-  .quotes p{
-  font-size: 1.3rem;
+    .quotes p{
+    font-size: 1.3rem;
+  }
 }
+
 .quotes{
   width: 60vw;
   margin: 10vh auto 0;
