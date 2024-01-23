@@ -149,6 +149,6 @@ const quotes = [
 
 function getRandomQuote() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
-    return quotes[randomIndex];
+    return "\" " +  quotes[randomIndex] + " \"";
 }
 document.getElementById("quote").innerHTML=getRandomQuote();
