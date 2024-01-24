@@ -223,24 +223,24 @@ images.forEach(img => imgObs.observe(img));
 
 // Revealing Elements on scroll
 
-const allSections = document.querySelectorAll('section');
+// const allSections = document.querySelectorAll('section');
 
-const revealSec = (entries, observer) => {
-	const [entry] = entries;
+// const revealSec = (entries, observer) => {
+// 	const [entry] = entries;
 
-	if(!entry.isIntersecting) return;
+// 	if(!entry.isIntersecting) return;
 
-	entry.target.classList.remove('section-hidden');
-	entry.target.classList.add('section-visible');
-	observer.unobserve(entry, target);
-}
+// 	entry.target.classList.remove('section-hidden');
+// 	entry.target.classList.add('section-visible');
+// 	observer.unobserve(entry, target);
+// }
 
-const sectionObserver = new IntersectionObserver(revealSec, {
-	root: null,
-	threshold: 0.15,
-});
+// const sectionObserver = new IntersectionObserver(revealSec, {
+// 	root: null,
+// 	threshold: 0.15,
+// });
 
-allSections.forEach((sec) => {
-	sec.classList.add('section-hidden');
-	sectionObserver.observe(sec);
-})
+// allSections.forEach((sec) => {
+// 	sec.classList.add('section-hidden');
+// 	sectionObserver.observe(sec);
+// })
