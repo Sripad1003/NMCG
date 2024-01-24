@@ -1,3 +1,4 @@
 # NMCG
-chatbot application using flask.
+Chatbot application using flask.
 https://nmcg-chatbot.onrender.com
+Done By Team Ganga.
