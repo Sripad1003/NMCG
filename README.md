@@ -1,8 +1,7 @@
-# NMCG
-Chatbot application using flask.
-https://nmcg-chatbot.onrender.com
-
-Done By Team Ganga.
+# NMCG CHATBOT
+A Chatbot application for Ganga Cleaning Awareness Campaign.
+# Visit our webpage at: 
+     https://nmcg-chatbot.onrender.com
 
 
 # Problem Statement
@@ -17,20 +16,33 @@ well as on the NMCG website.
 - The goal of the project is to create a fun and engaging way for people to learn about 
 the Namami Gange Programme and the importance of river conservation.
 
-# Technology Used
+# Getting Started
+  ####  Technology Used
 - HTML
 - CSS
 - SASS
 - BOOTSTRAP 5
 - PYTHON
 - JAVASCRIPT
-- 
+- ADOBE ANIMATE
+- GOOGLE API'S
+ ####  Installation
+* There is no need to install this Application.You just need to follow through our Website.
+* There must be minimum requirement of operating system to access this website.
+  For Windows: Windows 10
+  For Mac OS:Mac M! architecture
 
-# OUR TEAM
-- B.R.Sohith Reddy
+
+
+# Authors For The Project
+- B.R.Sohith Kumar Reddy
 - K.Kaushik Reddy
 - M.Sree Charan Reddy
-- A.Sudheep Bhaskar
 - P.Sreenadh Reddy
+- A.Sudheep Bhaskar
 - Chilivery Sripad
+
+
+# Licensing
+This Project is done and licensed by Team Ganga.
   
