@@ -1,0 +1,87 @@
+.gradient-custom {
+    background: #6a11cb;
+    
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1),to bottom,rgba(0,0,0,0.08))
+    
+    
+}
+html::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+    background-color: #f1f1f1; /* Set the background color of the track */
+    border-radius: 10px; /* Round the corners of the track */
+  }
+  
+  /* Customized rounded scrollbar thumb */
+html::-webkit-scrollbar-thumb {
+    background-color: gray; /* Set the color of the thumb */
+    border-radius: 10px; /* Round the corners of the thumb */
+  }
+  
+html::-webkit-scrollbar-thumb:hover{
+    background-color:rgba(128, 128, 128, 0.885);
+}   
+html::-webkit-scrollbar-track:hover{
+    background-color:#ffffff99;
+}
+
+.paragraph-date-time{
+    margin-top: 100px;
+}
+
+/* i.fab{ */
+    /* margin-right: 12px; */
+/* } */
+.optional-paragraph{
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.optional-paragraph-main{
+    display: block;
+    position: relative;
+    margin-bottom: 75px;
+    border-width: 13px;
+    border-color: red;
+    font-weight: 400;
+    font-size:28px;
+
+}
+#sign-in{
+    text-decoration: none;
+}
+
+/* Customized rounded scrollbar track */
+::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+    /* background-color: #f1f1f1; Set the background color of the track */
+    border-radius: 15px; /* Round the corners of the track */
+  }
+  
+  /* Customized rounded scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #ad6ef0; /* Set the color of the thumb */
+    border-radius: 115px; /* Round the corners of the thumb */
+    transition: background-color 0.45s;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #7f748c; /* Set the color of the thumb */
+    border-radius: 115px; /* Round the corners of the thumb */
+    
+  }
+  
+  /* Customized scrollbar pointers (only for some browsers) */
+  ::-webkit-scrollbar-button:vertical:start {
+    /* background-color: #3498db; Set the color of the up button */
+    border-radius: 50%; /* Make the up button rounded */
+    /* background-image: url(/static/images/cursor-pointers/uparrow.png); */
+  }
+  
+  ::-webkit-scrollbar-button:vertical:end {
+    /* background-color: #3498db; Set the color of the down button */
+    border-radius: 50%; /* Make the down button rounded */
+  }
+  

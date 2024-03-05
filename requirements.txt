@@ -1,0 +1,8 @@
+Flask
+requests
+nltk
+numpy
+scikit-learn
+google-generativeai
+pymongo
+Gunicorn
