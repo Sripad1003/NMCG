@@ -1,17 +1,14 @@
-<<<<<<< HEAD
 # NMCG Interactive Mascot and Digital Avatar
 =======
 # NMCG CHATBOT
 A Chatbot application for Ganga Cleaning Awareness Campaign.
 # Visit our webpage at: 
 https://nmcg-chatbot.onrender.com
->>>>>>> 5192584a0f74d36c2df06820d7692ed4b1ddca27
 
 ## Overview
 
 This project aims to create an AI, ML & Chatbot powered interactive mascot, Chacha Chaudhary, and digital avatar to raise awareness and disseminate information about the Namami Gange Programme. The mascot is designed to interact with people of all ages and backgrounds, making it a fun and engaging way to learn about the importance of river conservation.
 
-<<<<<<< HEAD
 The application will be deployed at the entrance of the River Basin War Room & Ganga Museum, as well as on the NMCG website in the coming future.
 =======
 # Getting Started
@@ -28,7 +25,6 @@ The application will be deployed at the entrance of the River Basin War Room & G
 * There must be minimum requirement of operating system to access this website.
   For Windows: Windows 10
   For Mac OS:Mac M! architecture
->>>>>>> 5192584a0f74d36c2df06820d7692ed4b1ddca27
 
 ## Features
 - **There are many features and functionalities of this project.The main and important features are listed below:-**
@@ -38,8 +34,6 @@ The application will be deployed at the entrance of the River Basin War Room & G
 - **Educational Content**: Provides information suitable for school children, the common man, and other stakeholders.
 
 ## Technologies Used
-
-<<<<<<< HEAD
 - **Backend**: Flask
 - **Frontend**: HTML, CSS, JavaScript, jQuery
 - **AI/ML**: Python libraries for AI and ML integration such as RAG,Llama-2
@@ -51,13 +45,10 @@ The application will be deployed at the entrance of the River Basin War Room & G
 - M.Sree Charan Reddy (https://github.com/sreecharan1306)
 - P.Sreenadh Reddy (https://github.com/Sreenadh3)
 - A.Sudheep Bhaskar (https://github.com/Heisenberg09Xd)
->>>>>>> 5192584a0f74d36c2df06820d7692ed4b1ddca27
 
 ## Installation
 
-<<<<<<< HEAD
 ### Prerequisites
-
 - Python 3.9 or higher
 - Flask
 - Other dependencies/library modules listed in `requirements.txt`
@@ -130,6 +121,4 @@ For any queries, please contact [NMCG](mailto:nmcgchatbot@gmail.com).
 =======
 # Licensing
 This Project is done and licensed by Team Ganga.
-  
 
->>>>>>> 5192584a0f74d36c2df06820d7692ed4b1ddca27
