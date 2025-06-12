@@ -143,9 +143,16 @@
 	});
 	
     //  POPUP VIDEO
-    $('.popup-video').magnificPopup({
-		type: 'iframe',
-	});
+    // $(document).ready(function() {
+	// 	$('.popup-video').magnificPopup({
+	// 		type: 'iframe',
+	// 	});
+	// 	const vid = document.getElementById('vid');
+	// 	vid.addEventListener('click', () => {
+	// 		vid.addClass('.video-btn');
+	// 		vid.addClass('.popup-video');
+	// 	})
+	// });
 	
 	
 	// WOW JS
@@ -171,7 +178,7 @@
 	
 })(jQuery);
 
-//Lazy image loading
+///////////////// Lazy image loading /////////////////
 
 // const images = document.querySelectorAll('img[data-src]');
 
@@ -221,7 +228,7 @@ const imgObs = new IntersectionObserver(loadImg, {
 
 images.forEach(img => imgObs.observe(img));
 
-// Revealing Elements on scroll
+/////////// Revealing Elements on scroll ///////////////
 
 const allSections = document.querySelectorAll('section');
 
