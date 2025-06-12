@@ -1,12 +1,10 @@
 # NMCG Interactive Mascot and Digital Avatar
-=======
 # NMCG CHATBOT
 A Chatbot application for Ganga Cleaning Awareness Campaign.
 # Visit our webpage at: 
 https://nmcg-chatbot.onrender.com
 
 ## Overview
-
 This project aims to create an AI, ML & Chatbot powered interactive mascot, Chacha Chaudhary, and digital avatar to raise awareness and disseminate information about the Namami Gange Programme. The mascot is designed to interact with people of all ages and backgrounds, making it a fun and engaging way to learn about the importance of river conservation.
 
 The application will be deployed at the entrance of the River Basin War Room & Ganga Museum, as well as on the NMCG website in the coming future.
