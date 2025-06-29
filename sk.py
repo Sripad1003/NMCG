@@ -24,23 +24,23 @@ GREETING_RESPONSES = ['hi', 'hey', 'hi there', 'hello', 'I am glad! You are talk
 SENDOFF_RESPONSES = ['Take care and stay in touch!','Until we meet again, take care of yourself.','Goodbye for now, but not forever.','Farewell, but not goodbye. See you soon!']
 BOTS = ('who are you?', 'who are you', 'tell me about yourself?', 'tell me about yourself')
 BOTS_RESPONSES = "I am MASCOT, a virtual assistant created by TEAM_NMCG. I'm here to help answer your questions, provide information."
-# client = MongoClient("mongodb+srv://chiliverysripad:Sripad1003@cluster0.hmzrnnp.mongodb.net/")
-# db = client["textdb"]
-# collection = db.nmcg
+client = MongoClient("mongodb+srv://chiliverysripad:Sripad1003@cluster0.hmzrnnp.mongodb.net/")
+db = client["textdb"]
+collection = db.nmcg
 
 
-uri = "mongodb://kaushik321:767187@ac-ka03deq-shard-00-00.cbz6m0k.mongodb.net:27017,ac-ka03deq-shard-00-01.cbz6m0k.mongodb.net:27017,ac-ka03deq-shard-00-02.cbz6m0k.mongodb.net:27017/?ssl=true&replicaSet=atlas-7ynvsq-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0"
-client = MongoClient(uri)
-db = client["Nmcg"]
-collection = db.Chatbot
+# uri = "mongodb://kaushik321:767187@ac-ka03deq-shard-00-00.cbz6m0k.mongodb.net:27017,ac-ka03deq-shard-00-01.cbz6m0k.mongodb.net:27017,ac-ka03deq-shard-00-02.cbz6m0k.mongodb.net:27017/?ssl=true&replicaSet=atlas-7ynvsq-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0"
+# client = MongoClient(uri)
+# db = client["Nmcg"]
+# collection = db.Chatbot
 
 lemmer = nltk.stem.WordNetLemmatizer()
 remove_punct_dict = dict((ord(punct), None) for punct in string.punctuation)
 
-GOOGLE_API_KEY="AIzaSyCS_57bvmSnRKCu_GUeIsNINQuOh38N2Z8"
+GOOGLE_API_KEY="AIzaSyDv5zVdk7kaPnHrcSUiyZi1lkZggVgm7ZA"
 genai.configure(api_key=GOOGLE_API_KEY)
 
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 def lem_tokens(tokens):
     return [lemmer.lemmatize(token) for token in tokens]
 
@@ -127,9 +127,9 @@ def response(user_response):
 
     if req_tfidf < 0.05:
         inp = user_response
-        response_parapharase = model.generate_content(f"""Cosider you as a chatbot for an organization. Give the answer to {inp} in the form of text in less than 20 words.""")
-        return response_parapharase.text
-        # return '{} Sorry, I don\'t understand you'.format(robo_response)
+        # response_parapharase = model.generate_content(f"""Cosider you as a chatbot for an organization. Give the answer to {inp} in the form of text in less than 20 words.""")
+        # return response_parapharase.text
+        return '{} Sorry, I don\'t understand you, The context does`nt match with the NMCG'.format(robo_response)
     elif req_tfidf > 0.175:
         data = sentence_tokens[idx].split(";;", 1)
         robo_response += data[1] if len(data) > 1 else sentence_tokens[idx]
